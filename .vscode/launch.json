@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+   
+    {
+      "type": "java",
+      "name": "Java : Current Java File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "name": "Python: Current python File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Go: Run Current File",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}"
+    }
+  ]
+}
