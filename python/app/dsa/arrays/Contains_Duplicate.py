@@ -1,5 +1,7 @@
 from typing import List
 
+# Question : https://neetcode.io/problems/contains-duplicate/question
+
 class Solution:
 
     # Approach 1: TC: O(n), SC: O(n)

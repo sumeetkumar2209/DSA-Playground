@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+// Question : https://neetcode.io/problems/contains-duplicate/question
+
 public class Contains_Duplicate {
 
     public static void main(String[] args) {
