@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	question := "twosum"
+	question := "validAnagram"
 
 	switch question {
 	case "twosum":
@@ -15,6 +15,9 @@ func main() {
 		nums := []int{1, 2, 3, 1}
 		result := hasDuplicate(nums)
 		fmt.Println("Contains Duplicate Result:", result)
+	case "validAnagram":
+		result := isValidAnagram("car", "jar")
+		fmt.Println(result)
 	default:
 		fmt.Println("Question not found")
 	}
