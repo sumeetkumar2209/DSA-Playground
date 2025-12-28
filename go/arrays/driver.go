@@ -18,6 +18,8 @@ func main() {
 	case "validAnagram":
 		result := isValidAnagram("car", "jar")
 		fmt.Println(result)
+		result1 := isValidAnagram("keep", "peek")
+		fmt.Println(result1)
 	default:
 		fmt.Println("Question not found")
 	}
