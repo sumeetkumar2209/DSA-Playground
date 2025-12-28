@@ -21,6 +21,6 @@ func main() {
 		result1 := isValidAnagram("keep", "peek")
 		fmt.Println(result1)
 	default:
-		fmt.Println("Question not found")
+		fmt.Println("Question not found - set Question")
 	}
 }
